@@ -1,0 +1,247 @@
+body{font-family: "微软雅黑";}
+*{
+	padding: 0.0rem;
+	margin:0.0rem;
+}
+.container{
+	height: 5.333333rem;
+	background-color: #fce35a;
+}
+.container > .edit{
+	width: 0.586667rem;
+	height: 0.6rem;
+	margin-top: 1.106667rem;
+	margin-right: 0.4rem;
+	background-image: url(../images/edit.png);
+	background-size: cover;
+	float: right;
+}
+.container img{
+	margin-top: 1.64rem;
+	margin-left: 3.84rem;
+	width: 2.333333rem;
+	height: 2.48rem;
+	position: relative;
+	background-size: cover;
+}
+.container > .name{
+	text-align: center;
+	color: #222224;
+	height:0.466667rem; 
+	font-size: 14px;
+}
+.line{
+	height: 0.173333rem;
+	width: 10.0rem;
+	background-color: #fce149;
+	background-image: url(../images/rec.png);
+	background-size: 0.333333rem 0.173333rem;
+	background-repeat: repeat-x;
+}
+.data-box{
+	height:1.973333rem;
+	box-shadow: 0 0.4rem 0.4rem #f3f3f3;
+}
+
+.data-box div{
+	width: 33.333333%;
+	height: inherit;
+	float: left;
+	text-align: center;
+}
+.data-box h2{
+	margin-top:0.506667rem; 
+}
+.data-box span{
+	color: #999999;
+}
+.record{
+	/*height: 1.6rem;*/
+	margin-top:0.533333rem;	
+}
+.clearfix{
+	clear: both;
+}
+.time-manage,.fitness-record,.collection{
+	width:2.8rem;
+	height: 1.6rem;
+	margin-left:0.4rem;
+	float: left;
+	border-radius: 0.066667rem;
+	background-color: #fce35a;
+	box-shadow: 0 0 0.133333rem #f3f3f3;
+}
+.time-manage:after{
+	content:" ";
+	text-align: center;
+	top: -0.773333rem;
+	right: 0.4rem;
+	float: right;
+	position: relative;
+	background: url(../images/time.png);
+	background-size: cover;
+	display: block;
+	height: 0.453333rem;
+	width: 0.453333rem;
+}
+.fitness-record:after{
+	content:" ";
+	text-align: center;
+	top: -0.773333rem;
+	right: 0.4rem;
+	float: right;
+	position: relative;
+	background: url(../images/data.png);
+	background-size: cover;
+	display: block;
+	height: 0.453333rem;
+	width: 0.453333rem;
+}
+.collection:after{
+	content:" ";
+	text-align: center;
+	top: -0.773333rem;
+	right: 0.4rem;
+	float: right;
+	position: relative;
+	background: url(../images/collection.png) no-repeat;
+	background-size: contain;
+	display: block;
+	height: 0.453333rem;
+	width: 0.453333rem;
+}
+.record span{
+	margin-top: 0.4rem;
+	margin-left: 0.4rem;
+	color: #ffffff;
+	display: block;
+}
+.record span.one{
+	margin-top: 0.0rem;
+}
+.time-manage-icon{
+	top: 0.4rem;
+	right: 0.4rem;
+	position: absolute;
+
+}
+.dynamic-near,.dynamic-pass{
+	height: 2.64rem;
+	width:9.2rem;
+	margin:0 auto; 
+	margin-top: 0.533333rem;
+	box-shadow: 0 0 0.4rem #f3f3f3;
+}
+.dynamic-near,.dynamic-pass:after{
+	clear: both;
+}
+.picture{
+	width: 2.786667rem;
+	height: inherit;
+	float: left;
+}
+.dynamic-near > .picture{
+	background-image: url(../images/pic-near.png);
+	background-size: cover;
+}
+.dynamic-pass > .picture{
+	background-image: url(../images/pic-pass.png);
+	background-size: cover;
+}
+
+.count{
+	width: 1.066667rem;
+	height:0.706667rem;
+	padding-top: 0.266667rem;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	background-color: rgba(80,79,80,0.5);
+}
+.word{
+	width:6.04rem;
+	height: 2.24rem;
+	top: 0.4rem;
+	left: 0.4rem;
+	float: left;
+	position: relative;
+}
+.word p{
+	color: #4e4e50;
+}
+.dynamic-near-icon{
+	height: 0.346667rem;
+	width: inherit;
+	bottom: 0.293333rem;
+	position: absolute;
+}
+.dynamic-near-icon div{
+	width: 1.866667rem;
+	float: left;
+}
+.dynamic-pass-icon{
+	height: 0.346667rem;
+	width: inherit;
+	bottom: 0.293333rem;
+	position: absolute;
+}
+.dynamic-pass-icon div{
+	width: 1.866667rem;
+	float: left;
+}
+.review:before{
+	content: " ";
+	width: 0.346667rem;
+	height: 0.346667rem;
+	margin-right: 0.24rem;
+	background-image: url(../images/review.png);
+	background-size: cover;
+	display: block;
+	float: left;
+}
+.collect:before{
+	content: " ";
+	width: 0.346667rem;
+	height: 0.346667rem;
+	margin-right: 0.24rem;
+	background-image: url(../images/collect.png);
+	background-size: cover;
+	display: block;
+	float: left;
+}
+.vote:before{
+	content: " ";
+	width: 0.346667rem;
+	height: 0.346667rem;
+	margin-right: 0.24rem;
+	background-image: url(../images/vote.png);
+	background-size: cover;
+	display: block;
+	float: left;
+}
+.menu{
+	height: 0.586667rem;
+	margin-top: 0.4rem;
+}
+.menu > .menu-icon{
+	width: 0.586667rem;
+	height: inherit;
+	margin: 0 0.956rem;
+	float: left;
+}
+.menu > .home{
+	background-image: url(../images/home.png);
+	background-size: cover;
+}
+.menu > .find{
+	background-image: url(../images/find.png);
+	background-size: cover;
+}
+.menu > .dynamic{
+	background-image: url(../images/dynamic.png);
+	background-size: cover;
+}
+.menu > .mine{
+	background-image: url(../images/mine.png);
+	background-size: cover;
+}
